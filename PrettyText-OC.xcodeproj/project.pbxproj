@@ -26,6 +26,7 @@
 		BEF066CB682704FAE65CB98E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BEF06A53878892F37A2C6481 /* NSString+PrettyText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PrettyText.h"; sourceTree = "<group>"; };
 		BEF06B8F1E9B10C285DCF00F /* NSMutableAttributedString+PrettyText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+PrettyText.m"; sourceTree = "<group>"; };
+		BEF06B9B85CFAD20B8DB5FD6 /* PrettyText_OC.h.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyText_OC.h.h; sourceTree = "<group>"; };
 		BEF06E805844123571862B66 /* LWPrettyTextMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPrettyTextMaker.h; sourceTree = "<group>"; };
 		BEF06F2CEBEB374F550AACC3 /* NSString+PrettyText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PrettyText.m"; sourceTree = "<group>"; };
 		EA2653E41E6EA05C00BA7237 /* PrettyText-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PrettyText-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +61,7 @@
 				BEF06A53878892F37A2C6481 /* NSString+PrettyText.h */,
 				BEF064C02A08D04FE58393A1 /* LWPrettyTextMaker.m */,
 				BEF06E805844123571862B66 /* LWPrettyTextMaker.h */,
+				BEF06B9B85CFAD20B8DB5FD6 /* PrettyText_OC.h.h */,
 			);
 			path = PrettyText;
 			sourceTree = "<group>";
