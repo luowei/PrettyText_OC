@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BEF0622ED7B3374FBF78D7B5 /* NSString+PrettyText.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06F2CEBEB374F550AACC3 /* NSString+PrettyText.m */; };
 		BEF063128BAEB8D0CE1CA988 /* LWPrettyTextMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF064C02A08D04FE58393A1 /* LWPrettyTextMaker.m */; };
+		BEF06A5734DC53C84C976059 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BEF066CB682704FAE65CB98E /* README.md */; };
 		BEF06B360580C70192EDE422 /* NSMutableAttributedString+PrettyText.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06B8F1E9B10C285DCF00F /* NSMutableAttributedString+PrettyText.m */; };
 		EA2653E91E6EA05C00BA7237 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2653E81E6EA05C00BA7237 /* main.m */; };
 		EA2653EC1E6EA05C00BA7237 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2653EB1E6EA05C00BA7237 /* AppDelegate.m */; };
@@ -16,13 +17,13 @@
 		EA2653F21E6EA05C00BA7237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2653F01E6EA05C00BA7237 /* Main.storyboard */; };
 		EA2653F41E6EA05C00BA7237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2653F31E6EA05C00BA7237 /* Assets.xcassets */; };
 		EA2653F71E6EA05C00BA7237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2653F51E6EA05C00BA7237 /* LaunchScreen.storyboard */; };
-		EA2653FF1E6EDB6A00BA7237 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = EA2653FE1E6EDB6A00BA7237 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BEF062B0C75333D1DC352C6F /* PrettyText_OC.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = PrettyText_OC.podspec; sourceTree = "<group>"; };
+		BEF063F83355EC9DF0B75A6C /* PrettyText_OC.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = PrettyText_OC.podspec; sourceTree = "<group>"; };
 		BEF064C02A08D04FE58393A1 /* LWPrettyTextMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPrettyTextMaker.m; sourceTree = "<group>"; };
 		BEF0658D06264E69B511BE25 /* NSMutableAttributedString+PrettyText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+PrettyText.h"; sourceTree = "<group>"; };
+		BEF066CB682704FAE65CB98E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BEF06A53878892F37A2C6481 /* NSString+PrettyText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PrettyText.h"; sourceTree = "<group>"; };
 		BEF06B8F1E9B10C285DCF00F /* NSMutableAttributedString+PrettyText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+PrettyText.m"; sourceTree = "<group>"; };
 		BEF06E805844123571862B66 /* LWPrettyTextMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPrettyTextMaker.h; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		EA2653F31E6EA05C00BA7237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA2653F61E6EA05C00BA7237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA2653F81E6EA05C00BA7237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA2653FE1E6EDB6A00BA7237 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +69,8 @@
 			children = (
 				EA2653E61E6EA05C00BA7237 /* PrettyText-OC */,
 				EA2653E51E6EA05C00BA7237 /* Products */,
+				BEF066CB682704FAE65CB98E /* README.md */,
+				BEF063F83355EC9DF0B75A6C /* PrettyText_OC.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,8 +95,6 @@
 				EA2653F81E6EA05C00BA7237 /* Info.plist */,
 				EA2653E71E6EA05C00BA7237 /* Supporting Files */,
 				BEF0659CE1571EE50540330B /* PrettyText */,
-				EA2653FE1E6EDB6A00BA7237 /* README.md */,
-				BEF062B0C75333D1DC352C6F /* PrettyText_OC.podspec */,
 			);
 			path = "PrettyText-OC";
 			sourceTree = "<group>";
@@ -182,10 +182,10 @@
 				EA2653EF1E6EA05C00BA7237 /* ViewController.m in Sources */,
 				EA2653EC1E6EA05C00BA7237 /* AppDelegate.m in Sources */,
 				EA2653E91E6EA05C00BA7237 /* main.m in Sources */,
-				EA2653FF1E6EDB6A00BA7237 /* README.md in Sources */,
 				BEF06B360580C70192EDE422 /* NSMutableAttributedString+PrettyText.m in Sources */,
 				BEF0622ED7B3374FBF78D7B5 /* NSString+PrettyText.m in Sources */,
 				BEF063128BAEB8D0CE1CA988 /* LWPrettyTextMaker.m in Sources */,
+				BEF06A5734DC53C84C976059 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

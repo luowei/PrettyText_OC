@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
-  s.source_files = 'PrettyText/*'
+  s.source_files = 'PrettyText-OC/PrettyText/*'
+  s.public_header_files = 'PrettyText-OC/PrettyText/*.h'
 
-  # s.public_header_files = 'PrettyText/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
