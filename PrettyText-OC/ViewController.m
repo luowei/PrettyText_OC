@@ -7,8 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "NSString+PrettyText.h"
-#import "NSMutableAttributedString+PrettyText.h"
+#import "PrettyText_OC.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
