@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "luowei" => "luowei@wodedata.com" }
   s.source           = { :git => "https://github.com/luowei/PrettyText_OC.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/luowei010101'
+  # s.social_media_url = 'https://twitter.com/luowei010101'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
