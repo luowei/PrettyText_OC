@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BEF0622ED7B3374FBF78D7B5 /* NSString+PrettyText.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06F2CEBEB374F550AACC3 /* NSString+PrettyText.m */; };
 		BEF063128BAEB8D0CE1CA988 /* LWPrettyTextMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF064C02A08D04FE58393A1 /* LWPrettyTextMaker.m */; };
+		BEF066F197F017C9BECB2029 /* Test.html in Resources */ = {isa = PBXBuildFile; fileRef = BEF06D08B42A9A30765F9171 /* Test.html */; };
+		BEF069D2BA34978EF40DF22F /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF064EDD6AC8855BC0EFA0E /* NSString+HTML.m */; };
 		BEF06A5734DC53C84C976059 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BEF066CB682704FAE65CB98E /* README.md */; };
 		BEF06B360580C70192EDE422 /* NSMutableAttributedString+PrettyText.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF06B8F1E9B10C285DCF00F /* NSMutableAttributedString+PrettyText.m */; };
 		EA2653E91E6EA05C00BA7237 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2653E81E6EA05C00BA7237 /* main.m */; };
@@ -17,16 +19,20 @@
 		EA2653F21E6EA05C00BA7237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2653F01E6EA05C00BA7237 /* Main.storyboard */; };
 		EA2653F41E6EA05C00BA7237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2653F31E6EA05C00BA7237 /* Assets.xcassets */; };
 		EA2653F71E6EA05C00BA7237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2653F51E6EA05C00BA7237 /* LaunchScreen.storyboard */; };
+		EAFF3A621E6FC4C500D1F91C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFF3A611E6FC4C500D1F91C /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BEF063F83355EC9DF0B75A6C /* PrettyText_OC.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = PrettyText_OC.podspec; sourceTree = "<group>"; };
 		BEF064C02A08D04FE58393A1 /* LWPrettyTextMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWPrettyTextMaker.m; sourceTree = "<group>"; };
+		BEF064EDD6AC8855BC0EFA0E /* NSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HTML.m"; sourceTree = "<group>"; };
+		BEF0653BB341519561647542 /* NSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HTML.h"; sourceTree = "<group>"; };
 		BEF0658D06264E69B511BE25 /* NSMutableAttributedString+PrettyText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+PrettyText.h"; sourceTree = "<group>"; };
 		BEF066CB682704FAE65CB98E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BEF06A53878892F37A2C6481 /* NSString+PrettyText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PrettyText.h"; sourceTree = "<group>"; };
 		BEF06B8F1E9B10C285DCF00F /* NSMutableAttributedString+PrettyText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+PrettyText.m"; sourceTree = "<group>"; };
-		BEF06B9B85CFAD20B8DB5FD6 /* PrettyText_OC.h.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyText_OC.h.h; sourceTree = "<group>"; };
+		BEF06B9B85CFAD20B8DB5FD6 /* PrettyText_OC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrettyText_OC.h; sourceTree = "<group>"; };
+		BEF06D08B42A9A30765F9171 /* Test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Test.html; sourceTree = "<group>"; };
 		BEF06E805844123571862B66 /* LWPrettyTextMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWPrettyTextMaker.h; sourceTree = "<group>"; };
 		BEF06F2CEBEB374F550AACC3 /* NSString+PrettyText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PrettyText.m"; sourceTree = "<group>"; };
 		EA2653E41E6EA05C00BA7237 /* PrettyText-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PrettyText-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +45,8 @@
 		EA2653F31E6EA05C00BA7237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA2653F61E6EA05C00BA7237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA2653F81E6EA05C00BA7237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFF3A601E6FC4C500D1F91C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		EAFF3A611E6FC4C500D1F91C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +69,9 @@
 				BEF06A53878892F37A2C6481 /* NSString+PrettyText.h */,
 				BEF064C02A08D04FE58393A1 /* LWPrettyTextMaker.m */,
 				BEF06E805844123571862B66 /* LWPrettyTextMaker.h */,
-				BEF06B9B85CFAD20B8DB5FD6 /* PrettyText_OC.h.h */,
+				BEF06B9B85CFAD20B8DB5FD6 /* PrettyText_OC.h */,
+				BEF064EDD6AC8855BC0EFA0E /* NSString+HTML.m */,
+				BEF0653BB341519561647542 /* NSString+HTML.h */,
 			);
 			path = PrettyText;
 			sourceTree = "<group>";
@@ -91,12 +101,15 @@
 				EA2653EB1E6EA05C00BA7237 /* AppDelegate.m */,
 				EA2653ED1E6EA05C00BA7237 /* ViewController.h */,
 				EA2653EE1E6EA05C00BA7237 /* ViewController.m */,
+				EAFF3A601E6FC4C500D1F91C /* SecondViewController.h */,
+				EAFF3A611E6FC4C500D1F91C /* SecondViewController.m */,
 				EA2653F01E6EA05C00BA7237 /* Main.storyboard */,
 				EA2653F31E6EA05C00BA7237 /* Assets.xcassets */,
 				EA2653F51E6EA05C00BA7237 /* LaunchScreen.storyboard */,
 				EA2653F81E6EA05C00BA7237 /* Info.plist */,
 				EA2653E71E6EA05C00BA7237 /* Supporting Files */,
 				BEF0659CE1571EE50540330B /* PrettyText */,
+				BEF06D08B42A9A30765F9171 /* Test.html */,
 			);
 			path = "PrettyText-OC";
 			sourceTree = "<group>";
@@ -171,6 +184,7 @@
 				EA2653F71E6EA05C00BA7237 /* LaunchScreen.storyboard in Resources */,
 				EA2653F41E6EA05C00BA7237 /* Assets.xcassets in Resources */,
 				EA2653F21E6EA05C00BA7237 /* Main.storyboard in Resources */,
+				BEF066F197F017C9BECB2029 /* Test.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,9 +199,11 @@
 				EA2653EC1E6EA05C00BA7237 /* AppDelegate.m in Sources */,
 				EA2653E91E6EA05C00BA7237 /* main.m in Sources */,
 				BEF06B360580C70192EDE422 /* NSMutableAttributedString+PrettyText.m in Sources */,
+				EAFF3A621E6FC4C500D1F91C /* SecondViewController.m in Sources */,
 				BEF0622ED7B3374FBF78D7B5 /* NSString+PrettyText.m in Sources */,
 				BEF063128BAEB8D0CE1CA988 /* LWPrettyTextMaker.m in Sources */,
 				BEF06A5734DC53C84C976059 /* README.md in Sources */,
+				BEF069D2BA34978EF40DF22F /* NSString+HTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

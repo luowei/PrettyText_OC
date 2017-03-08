@@ -27,3 +27,8 @@ DerivedData
 # http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
 #
 Pods/
+.idea/modules.xml
+.idea/PrettyText-OC.iml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/xcode.xml
