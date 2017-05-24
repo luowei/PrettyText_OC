@@ -9,18 +9,26 @@
 
 @implementation NSString (HTML)
 
-- (NSMutableAttributedString *)HTMLAttributedString  {
+- (NSMutableAttributedString *)HTMLAttributedString {
     NSDictionary *options = @{NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType,
             NSCharacterEncodingDocumentAttribute: @(NSUTF8StringEncoding)};
 
     __block NSMutableAttributedString *attributedString = nil;
-    dispatch_main_sync_safe(^{
+    if ([NSThread isMainThread]) {
         NSError *error;
-        attributedString =  [[NSMutableAttributedString alloc]
-                initWithData:[self dataUsingEncoding:NSUTF8StringEncoding]
-                     options:options documentAttributes:nil error:&error];
-        NSLog(@"Error create attributeString from HTML:%@", [error localizedFailureReason]?:@"");
-    });
+        attributedString = [[NSMutableAttributedString alloc] initWithData:[self dataUsingEncoding:NSUTF8StringEncoding] options:options documentAttributes:nil error:&error];
+        if(error){
+            NSLog(@"Error create attributeString from HTML:%@", [error localizedFailureReason] ?: @"");
+        }
+    } else {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            NSError *error;
+            attributedString = [[NSMutableAttributedString alloc] initWithData:[self dataUsingEncoding:NSUTF8StringEncoding] options:options documentAttributes:nil error:&error];
+            if(error){
+                NSLog(@"Error create attributeString from HTML:%@", [error localizedFailureReason] ?: @"");
+            }
+        });
+    }
     return attributedString;
 }
 

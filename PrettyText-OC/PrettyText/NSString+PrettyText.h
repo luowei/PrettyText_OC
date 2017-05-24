@@ -35,7 +35,8 @@
 
 -(NSMutableAttributedString *)pt_lineSpacing:(CGFloat)space;
 
-- (NSAttributedString *)pt_color:(UIColor *)color subString:(NSString *)subString;
+- (NSMutableAttributedString *)pt_color:(UIColor *)color subString:(NSString *)subString;
+- (NSMutableAttributedString *)pt_font:(UIFont *)font subString:(NSString *)subString;
 
 #pragma mark - With Range
 

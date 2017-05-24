@@ -85,10 +85,22 @@
 }
 
 
-- (NSAttributedString *)pt_color:(UIColor *)color subString:(NSString *)subString {
+- (NSMutableAttributedString *)pt_color:(UIColor *)color subString:(NSString *)subString {
+    if(!subString){
+        return nil;
+    }
     NSRange range = [self rangeOfString:subString];
     return [self pt_color:color range:range];
 }
+
+- (NSMutableAttributedString *)pt_font:(UIFont *)font subString:(NSString *)subString {
+    if(!subString){
+        return nil;
+    }
+    NSRange range = [self rangeOfString:subString];
+    return [self pt_font:font range:range];
+}
+
 
 #pragma mark - With Range
 
